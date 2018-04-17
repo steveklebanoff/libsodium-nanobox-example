@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem "pg"
 
-gem "rbnacl-libsodium"
+gem "rbnacl-libsodium", :git => 'https://github.com/crypto-rb/rbnacl-libsodium.git', :ref => 'c1ee4d621b2e1d95cfaad6512177473e12d5902e'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
