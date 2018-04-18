@@ -1,6 +1,6 @@
 # Libsodium Nanobox Failure
 
-This is an example of how adding rbnacl-libsodium as a dependency in a rails app breaks nanobox.
+This is an example of how adding [rbnacl-libsodium](https://github.com/crypto-rb/rbnacl-libsodium) as a dependency in a rails app breaks nanobox.
 
 Running `nanobox run rails c` gives the following exception:
 
